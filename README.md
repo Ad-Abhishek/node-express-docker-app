@@ -1,12 +1,16 @@
 # node-express-docker-app
 
+## docker registry
+
+https://hub.docker.com/repository/docker/abhishek717/firstapp
+
 ## Authors
 
 - [@Abhishek Adhikari](https://github.com/Ad-Abhishek)
 
 ## Create a Dockerfile at root location- contains instructions to create docker image
 
-`
+```
   FROM node:16.17.0-alpine
  
   WORKDIR /app
@@ -18,7 +22,7 @@
   ADD index.js ./
  
   CMD ["node", "index.js"]
-`
+```
 
 
 ## Bulid docker image using the Dockerfile
