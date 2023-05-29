@@ -1,20 +1,24 @@
 # node-express-docker-app
 
-User REST API
-
 ## Authors
 
 - [@Abhishek Adhikari](https://github.com/Ad-Abhishek)
 
 ## Create a Dockerfile at root location- contains instructions to create docker image
 
+`
   FROM node:16.17.0-alpine
+ 
   WORKDIR /app
+ 
   ADD package*.json ./
+ 
   RUN npm install
+ 
   ADD index.js ./
+ 
   CMD ["node", "index.js"]
-
+`
 
 
 ## Bulid docker image using the Dockerfile
