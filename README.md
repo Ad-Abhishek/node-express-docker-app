@@ -4,6 +4,8 @@
 
 https://hub.docker.com/repository/docker/abhishek717/firstapp
 
+`docker pull abhishek717/firstapp:tagname`
+
 ## Authors
 
 - [@Abhishek Adhikari](https://github.com/Ad-Abhishek)
