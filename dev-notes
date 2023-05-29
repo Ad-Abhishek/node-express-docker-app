@@ -1,0 +1,16 @@
+# Create a Dockerfile at root location- contains instructions to create docker image
+
+
+
+
+# Bulid docker image using the Dockerfile
+ $ docker build -t docker-demo . 
+
+
+
+# List docker image
+ $ docker images
+
+
+# Run your docker image in a container
+ $ docker run --name my-docker-container -p 3000:3000 docker-demo 
