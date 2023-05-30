@@ -24,6 +24,7 @@ https://hub.docker.com/repository/docker/abhishek717/firstapp
   ADD index.js ./
  
   CMD ["node", "index.js"]
+  
 ```
 
 
