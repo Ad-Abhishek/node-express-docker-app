@@ -28,6 +28,7 @@ https://hub.docker.com/repository/docker/abhishek717/firstapp
 ```
 
 
+
 ## Bulid docker image using the Dockerfile
 
  `$ docker build -t docker-demo .` 
