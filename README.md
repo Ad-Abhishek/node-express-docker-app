@@ -55,13 +55,13 @@ https://hub.docker.com/repository/docker/abhishek717/firstapp
 
 ## link local image to docker hub
 
- `$ docker tag <local-docer-image> <username>/<repo-name>`
+ `$ docker tag <local-docer-image> <username>/<image-name>`
 
 
 
 ## push to docker hub
 
- `$ docker push <username>/<repo-name>:<tag name>`
+ `$ docker push <username>/<image-name>:<tag name>`
 
 
 
